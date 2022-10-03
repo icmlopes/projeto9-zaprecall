@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import deck from "./Deck"
 
 export default function Footer() {
     const naolembrei = "#FF3030"
@@ -12,7 +13,7 @@ export default function Footer() {
                     <Botao cor={quase}>Quase não lembrei</Botao>
                     <Botao cor={zap}>Zap!</Botao>
                 </ContainerBotao>
-                <h6>0/4 Concluídos</h6>
+                <h6>0/{deck.length} Concluído</h6>
             </Container>
         </>
     )

@@ -1,17 +1,16 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import styled from "styled-components"
-import Questions from "./Questions"
+import Main from "./Main"
 
 export default function App(){
     return(
         <>
             <Container>
                 <Header/>
-                <Questions/>
+                <Main/>
                 <Footer/>
-            </Container>
-            
+            </Container> 
         </>
     )
 } 
