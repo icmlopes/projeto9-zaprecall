@@ -12,14 +12,14 @@ export default function Footer() {
                     <Botao cor={quase}>Quase não lembrei</Botao>
                     <Botao cor={zap}>Zap!</Botao>
                 </ContainerBotao>
+                <h6>0/4 Concluídos</h6>
             </Container>
         </>
     )
 }
 
-
 const Container = styled.div`
-    width: 100%;
+    width: 30vw;
     min-height: 50px;
     background-color: #FFFFFF;
     position: fixed;
@@ -34,6 +34,11 @@ const Container = styled.div`
     color: #333333;
     padding: 10px;
     margin: 0 auto;
+    h6{
+        font-family: 'Recursive', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+    }
 `
 const ContainerBotao = styled.div`
     display: flex;
